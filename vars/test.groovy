@@ -1,4 +1,4 @@
-import com.test
+
 def call(){
   
   TestClass t = new TestClass();
