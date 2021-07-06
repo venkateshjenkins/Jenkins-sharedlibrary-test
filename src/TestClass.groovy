@@ -1,4 +1,4 @@
-package com.test
+
 class TestClass {
 
 def calling(){
