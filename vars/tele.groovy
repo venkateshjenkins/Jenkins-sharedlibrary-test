@@ -8,3 +8,4 @@ def call(script){
   
  }}
 }
+return this
