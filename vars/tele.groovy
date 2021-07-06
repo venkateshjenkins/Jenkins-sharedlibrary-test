@@ -1,3 +1,3 @@
 def call(script){
-  script.env.JOB_NAME
+ println script.env.JOB_NAME
 }
