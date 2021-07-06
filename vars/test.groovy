@@ -5,3 +5,4 @@ def call(){
   t.calling()
 println("shred lib")
 }
+return this
