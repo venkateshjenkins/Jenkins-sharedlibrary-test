@@ -1,8 +1,8 @@
 
 def call(){
   tele(this)
-  TestClass t = new TestClass();
-  t.calling()
+  Transform t = new Transform();
+  t.writing("Happy")
 println("shred lib")
 }
 return this
