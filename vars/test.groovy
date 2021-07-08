@@ -2,7 +2,7 @@ import com.*
 def call(){
   tele(this)
   TestClass t = new TestClass();
-  t.calling()
+  println(t.calling())
 println("shred lib")
 }
 return this
