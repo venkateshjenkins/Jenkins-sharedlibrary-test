@@ -1,4 +1,4 @@
-import com
+import com.TestClass.groovy
 def call(){
   tele(this)
   TestClass t = new TestClass();
