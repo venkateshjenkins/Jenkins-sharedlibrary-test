@@ -1,7 +1,7 @@
-import com.*
+import com.TestClass
 def call(){
   tele(this)
-  def t = new com.TestClass()
+  def t = new TestClass()
   println(t.calling())
 println("shred lib")
 }
