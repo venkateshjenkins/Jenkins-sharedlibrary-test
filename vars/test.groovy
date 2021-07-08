@@ -2,7 +2,7 @@ import com
 def call(){
   tele(this)
   TestClass t = new TestClass();
-  t.calling("Happy")
+  t.calling()
 println("shred lib")
 }
 return this
