@@ -1,10 +1,11 @@
 import com.TestClass
 def call(){
+
  
   tele(this)
- node{
+def t = new TestClass()
   stage("new"){
-  println(t.calling())
+   script{ println(t.calling())}
 println("shred lib")
-  }}}
+  }}
 return this
