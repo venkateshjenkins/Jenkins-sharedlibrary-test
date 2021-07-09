@@ -2,9 +2,9 @@ import com.TestClass
 def call(){
  
   tele(this)
-  def t = new TestClass()
+ node{
   stage("new"){
   println(t.calling())
 println("shred lib")
-  }}
+  }}}
 return this
