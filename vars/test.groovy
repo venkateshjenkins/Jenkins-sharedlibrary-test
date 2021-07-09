@@ -1,6 +1,6 @@
 import com.TestClass
-def call(){
-
+def call(Closure cls){
+cls()
  
   tele(this)
 def t = new TestClass()
