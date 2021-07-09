@@ -1,7 +1,7 @@
 import com.TestClass
 
-def call(script){
- 
+def call(script,Closure cls){
+ cls()
 
   def t = new TestClass()
  stage ("build"){
