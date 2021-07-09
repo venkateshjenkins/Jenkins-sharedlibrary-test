@@ -6,6 +6,6 @@ def call(){
 def t = new TestClass()
   stage("new"){
    script{ println(t.calling())}
-println("shred lib")
+echo("shred lib")
   }}
 return this
