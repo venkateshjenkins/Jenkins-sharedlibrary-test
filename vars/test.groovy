@@ -1,5 +1,6 @@
 import com.TestClass
 def call(Closure cls){
+ node{
 cls()
  def t = new TestClass(this)
   tele(this)
@@ -7,7 +8,7 @@ cls()
   stage("new"){
    script{ println(t.calling())}
 echo("shred lib")
-  }}
+  }}}
 
 def experiment(){
 echo "Testing With Experiment : call another function"
