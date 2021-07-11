@@ -6,7 +6,7 @@ cls()
   tele(this)
   
   stage("new"){
-   steps{
+   step{
     script{ t.Callstage() }
    script{ println(t.calling())}
 echo("shred lib")
