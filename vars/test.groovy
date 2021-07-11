@@ -6,10 +6,11 @@ cls()
   tele(this)
   
   stage("new"){
+   steps{
     script{ t.Callstage() }
    script{ println(t.calling())}
 echo("shred lib")
-  }}}
+   }  }}}
 
 def experiment(){
 echo "Testing With Experiment : call another function"
