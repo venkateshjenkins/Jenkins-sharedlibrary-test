@@ -1,9 +1,9 @@
 import com.TestClass
 def call(Closure cls){
 cls()
- 
+ def t = new TestClass(this)
   tele(this)
-def t = new TestClass()
+
   stage("new"){
    script{ println(t.calling())}
 echo("shred lib")
