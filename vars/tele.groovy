@@ -1,14 +1,14 @@
 import com.TestClass
 
-def call(script22){
+def call(script){
  
 
   def t = new TestClass()
  stage ("build"){
 println(t.calling())
- println script22.JOB_NAME
+ println script.JOB_NAME
  println "using the env " + env.JOB_NAME
-  script22.experiment()
+  script.experiment()
   
  }
  
