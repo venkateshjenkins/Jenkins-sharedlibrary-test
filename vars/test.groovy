@@ -4,8 +4,9 @@ def call(Closure cls){
 cls()
  def t = new TestClass(this)
   tele(this)
-   script{ t.Callstage() }
+  
   stage("new"){
+    script{ t.Callstage() }
    script{ println(t.calling())}
 echo("shred lib")
   }}}
