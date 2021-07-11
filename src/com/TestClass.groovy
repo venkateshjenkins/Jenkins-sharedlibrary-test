@@ -5,7 +5,8 @@ class TestClass {
   this.script=script
   }
   def Callstage(){
-  script.echo "date"
+    
+  echo "date"
   }
 def String calling(){
 return "calling from srcss"
