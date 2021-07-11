@@ -8,6 +8,8 @@ def call(script){
 println(t.calling())
  println script.JOB_NAME
  println "using the env " + env.JOB_NAME
+  script.experiment()
+  
  }
  
 }
